@@ -1,0 +1,27 @@
+{
+    "name": "hi",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "v3": "*",
+        "MotionKit V2": "github:tinysuperlab/motionkitv2#v0.1.2",
+        "TM1637": "github:bolzmannstsoe/tm1637_stsoe#v1.0.5",
+        "CO2-Sensor-SCD40": "github:calliope-edu/co2-sensor-scd40#ab46a2481d98885153ae583780d9732b6a17d5cb"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.1.13",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
